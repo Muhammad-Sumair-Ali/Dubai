@@ -1,0 +1,92 @@
+body{
+  margin: 0px;
+  padding: 0px;
+  background-color: #f1f1f1;
+}
+
+.navbar{
+  background-color: #510c8a; !important 
+  color: white; !important
+}
+nav{
+  color: white; !important
+}
+.text-white{
+  color: white; !important
+}
+.first img{
+  width: 100%;
+}
+
+/* search end  */
+h1{
+  text-align: center;
+  margin-top: 10px;
+  background-color: #510c8a;
+  color: white;
+  font-size: 13px;
+  padding: 5px;
+}
+
+marquee{
+  color: white;
+  margin-bottom: 30px;!important
+}
+
+/* buy now style  */
+.buy-btn{
+    clear: both;
+    width: 100%;
+    border: none;
+    margin-top: 5px;
+    padding: 10px;
+    color: white;
+    background-color: blue;
+}
+.buy-btn:hover{
+    background-color: darkblue;
+    color: white;
+}
+
+/* Your custom CSS */
+.carousel div img{
+  margin-left: 10px;
+  width: 100%;
+}
+.carousel {
+    width: 100%;
+    height: 275px;!important
+    margin: 0 auto;
+
+}
+.carousel-cnt{
+  width: 80%;
+  height: auto;
+  margin: auto;
+  box-sizing: border-box;
+  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+  border-radius: 10px;
+  overflow: hidden;
+  transition: 1s;
+}
+.carousel-cnt p,h2{
+  margin: 10px;
+  margin-left: 20px;!important
+  margin-bottom: 10px;
+}
+.carousel-cnt h2{
+  margin-left: 20px;
+}
+.carousel-cnt:hover{
+  transform: scale(1.1);!important
+}
+@media only screen and (min-width:992px){
+  .carousel-cnt{
+    width: 75%;
+  }
+ 
+  .carousel{
+   height: 550px !important;
+  }
+ 
+}

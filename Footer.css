@@ -1,0 +1,59 @@
+.ficon{
+  text-align: center;
+  color: black; 
+  border-top: 1px solid black;
+}
+.ficon i{
+  margin: 8px;
+  padding: 15px;
+  border-radius: 50%;
+  background-color: #e1eef7;
+  
+}
+
+.ftext p{
+  text-align: center;
+  font-size: 12px;
+  margin-top: 10px;
+  color: white;!important
+}
+
+.fimg img{
+  margin-top: 10px;
+  width: 17%;
+  border-radius: 30px;
+  text-align: center;
+}
+.fimg{
+  text-align: center;
+}
+.fcnt{
+  padding: 18px;
+  background-color: black;
+  color: white;
+  padding-left: 30px;
+  font-family: 'Dosis', sans-serif;
+  font-size: 11px;
+  margin-top: 5px;
+  text-align: center !important;
+  
+}
+.fcnt b{
+  margin-left: 16px;
+}
+.fcnt b:hover{
+  color: red;
+ 
+}
+footer{
+  width: 100%;
+  padding-bottom: 5px;
+  background-color: black;!important
+  color: white;!important
+  text-align: center;
+}
+.ficon i:hover{
+  background-color: #333 !important;
+  color: red;
+}
+

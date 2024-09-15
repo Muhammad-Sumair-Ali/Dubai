@@ -1,0 +1,98 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+   
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Macondo&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+    
+    <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="Sign.css">
+
+        <title>Dubai-Cloth | Sign/in</title>
+</head>
+<body>
+   <nav class="navbar navbar-expand-lg text-white sticky-top bg-purple" data-bs-theme="dark">
+  <div class="container-fluid ">
+    <a class="navbar-brand" href="index.html"><img src="images/blackicon.jpg" width="90" height="40"></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="index.html">HOME</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="about.html">ABOUT us</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contact.html">CONTACT us</a>
+        </li>
+        
+          <li class="nav-item">
+          <a class="nav-link" href="signin.html">SIGN IN / SIGN UP</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+           CLOTHES COLLECTION </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="mens.html">MENS COLLECTION</a></li>
+            <li><a class="dropdown-item" href="women.html">WOMEN'S COLLECTION</a></li>
+          </ul></li></ul></div>
+    </div>
+   </nav>
+  
+  
+    <div class="container">
+        <div class="login">
+            <h2>Login</h2>
+            <form action="login.php" method="POST">
+                <input type="text" name="username" placeholder="Username" required>
+                <input type="password" name="password" placeholder="Password" required>
+                <button type="submit">Login</button>
+            </form>
+        </div>
+        <div class="signup">
+            <h2>Create Account</h2>
+            <form action="signup.php" method="POST">
+                <input type="text" name="fullname" placeholder="Full Name" required>
+                <input type="email" name="email" placeholder="Email" required>
+                <input type="password" name="password" placeholder="Password" required>
+                <button type="submit">Sign Up</button>
+            </form>
+        </div>
+    </div>
+
+  
+  
+   <footer>
+          <div class="ficon">
+           <a target="_blank" href="https://www.facebook.com/Newdubaicloth?mibextid=ZbWKwL"> <i class="fa fa-facebook" aria-hidden="true" style="background-color: #3377f5; color:white;"></i></a>
+            
+            
+             <i class="fa fa-twitter" aria-hidden="true" style="background-color: white;color:#3377f5;"></i>
+           
+              <i class="fa fa-instagram" aria-hidden="true" style="background-color:white;color:#cd486b ;"></i>
+          </div>
+          <div class="ftext">
+                    <p>GQG4+QW9, Mall Rd, Mirwah Colony, Khairpur, Sindh</p>
+          </div>
+          <div class="fimg">
+              <center>
+            <img src="images/blackicon.jpg" alt="shop.icon" >
+            </center>
+          
+          </div>
+          <p class="fcnt"> Copyright | &copy;2023 <b>Privacy-Policy</b><b>Creater | Muhammad Sumair Jatoi</b></p>
+        </footer>
+        
+        
+             <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+  </body>
+</html>
